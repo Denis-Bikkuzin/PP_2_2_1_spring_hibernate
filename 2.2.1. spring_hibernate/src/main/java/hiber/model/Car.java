@@ -1,7 +1,6 @@
 package hiber.model;
 
 import javax.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Table(name = "cars")
@@ -17,7 +16,6 @@ public class Car {
 
     @Column(name = "series")
     private int series;
-
 
 
     public Car(String model, int series) {
